@@ -12,7 +12,19 @@
         display: flex;
         justify-content: space-around;
     }
-    .lista-rodape{
+    .lista_rodape{
         display: block;
+    }
+    .rodape_titulo{
+        font-size: 24px;
+    }
+    .lista_rodape_titulo{
+        font-size: 14px;
+        color: var(--cinza-claro);
+    }
+    .lista_rodape_link{
+        color: var(--cinza);
+        text-decoration: none;
+        margin-left: 0.6em;
     }
 }
